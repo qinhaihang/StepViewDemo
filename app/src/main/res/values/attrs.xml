@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepView">
+        <attr name="step_count" format="integer"/>
+        <attr name="step_default_bg" format="integer"/>
+        <attr name="step_divider" format="integer"/>
+        <attr name="step_select_bg" format="integer"/>
+        <attr name="step_select_symbol" format="integer"/>
+        <attr name="step_text_default_color" format="color|reference"/>
+        <attr name="step_text_select_color" format="color|reference"/>
+        <attr name="step_text_size" format="dimension|reference"/>
+    </declare-styleable>
+</resources>
