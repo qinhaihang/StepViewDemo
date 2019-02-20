@@ -124,6 +124,8 @@ public class StepView extends View {
             setMeasuredDimension(defaultWidth, heightSize);
         } else if (getLayoutParams().height == ViewGroup.LayoutParams.WRAP_CONTENT) {
             setMeasuredDimension(withSize, defaultHeight);
+        } else{
+            setMeasuredDimension(withSize, heightSize);
         }
 
     }
